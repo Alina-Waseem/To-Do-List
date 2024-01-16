@@ -1,0 +1,49 @@
+body{
+    background-image: url(bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(15px);
+    background: #ffffff47;
+    height: auto;
+}
+button{
+    background-color: #909090;
+    color: #fff;
+    border-radius: 5px;
+    width: 55px;
+    margin: 5px;
+    height: 30px;
+    margin-top: 8px;
+    border: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+#InputHolder{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+#List{
+    text-align: start;
+}
+
+#List button{
+    margin-left: 10px;
+}
